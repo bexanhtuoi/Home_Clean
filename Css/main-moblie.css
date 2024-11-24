@@ -16,7 +16,7 @@ html {
 .box-menu-mobile {
   display: none;
 }
-@media screen and (min-width: 851px) and (max-width: 1318px) {
+@media screen and (min-width: 720px) and (max-width: 1320px) {
   .header {
     vertical-align: middle;
   }
