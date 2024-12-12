@@ -566,4 +566,7 @@ html {
   #product-children {
     height: 5200px;
   }
+  #Related-Products {
+    flex-direction: column;
+  }
 }
