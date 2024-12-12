@@ -1,0 +1,225 @@
+#pic-sample a img {
+  width: 110%;
+  height: 100%;
+}
+
+#pic-sample .col-lg-12 {
+  margin-bottom: 10%;
+}
+#pic-sample {
+  display: flex;
+  flex-direction: column;
+}
+#Related-Products {
+  display: flex;
+  justify-content: space-between;
+}
+
+section {
+  padding: 3% 0;
+  border-top: 2px solid rgba(61, 59, 59, 0.1);
+}
+
+#info-product {
+  padding-top: 2rem;
+  padding-left: 2rem;
+}
+
+.info {
+  margin-bottom: 2.2rem;
+}
+
+.breadcrumb {
+  font-size: 13px;
+}
+.breadcrumb li a {
+  text-decoration: none;
+  color: rgb(33 37 41 / 75%);
+}
+.breadcrumb li a:hover {
+  color: #6e2f1b;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+  content: ">";
+  padding: 0 8px;
+  color: #000;
+}
+
+.box-star-1 {
+  width: 260px;
+  display: flex;
+  justify-content: space-between;
+}
+.box-star-1 i {
+  margin-top: 2%;
+}
+
+.box-star-1 p {
+  font-size: 14px;
+  color: #868686;
+}
+
+.info h3 {
+  font-family: "Questrial", sans-serif;
+}
+
+.info h4 {
+  margin-top: 20px;
+  color: #6e2f1b;
+  font-family: "Questrial", sans-serif;
+}
+
+.buy {
+  width: 110%;
+  padding: 30px 0px;
+  border-bottom: 2px solid rgba(61, 59, 59, 0.1);
+  border-top: 2px solid rgba(61, 59, 59, 0.1);
+}
+
+.buy p {
+  color: #868686;
+  font-family: "Questrial", sans-serif;
+}
+.add-card {
+  display: flex;
+  align-items: center;
+}
+
+.quantity-control {
+  width: 140px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  border: 1px solid #ccc;
+}
+
+.quantity-control button {
+  color: #868686;
+  width: 70px;
+  height: 45px;
+  font-size: 18px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.quantity-control .quantity {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  width: 30px;
+}
+
+.btn-add-cart {
+  margin-right: 2%;
+  margin-left: 2%;
+  flex: 1;
+  padding: 10px;
+  background-color: rgb(0 0 0 / 75%);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-add-cart:hover {
+  background-color: #6c2c19;
+}
+
+.btn-wishlist {
+  color: #868686;
+  width: 46px;
+  height: 42px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.btn-wishlist:hover {
+  background-color: #f9f9f9;
+}
+
+.btn-buy-now {
+  width: 100%;
+  padding: 10px;
+  background-color: #6e2f1b;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.btn-buy-now:hover {
+  background-color: #5a2617;
+}
+
+.social {
+  font-size: 0.9rem;
+  margin-top: 15px;
+  justify-content: space-between;
+}
+
+.social p {
+  color: #868686;
+}
+
+.social a {
+  text-decoration: none;
+  color: #000;
+}
+#share {
+  display: flex;
+  justify-content: space-between;
+  width: 140px;
+}
+#share a {
+  font-size: 1rem;
+}
+
+#Description a {
+  text-decoration: none;
+  font-size: 1.4rem;
+  margin-right: 25px;
+  color: #000;
+  border-bottom: 3px solid black;
+  height: 40px;
+}
+
+#Description a:nth-of-type(2) {
+  color: #868686;
+  border-bottom: none;
+}
+#Description {
+  display: flex;
+  justify-content: center;
+  height: 4rem;
+}
+
+#Description-parent p {
+  color: #868686;
+}
+
+#Related-item {
+  display: flex;
+  justify-content: center;
+  height: 4rem;
+  margin-bottom: 30px;
+}
+
+#Related-item a {
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: #000;
+  height: 60px;
+}
+
+#Related-item a::before {
+  margin-top: 50px;
+  content: "";
+  width: 5%;
+  height: 2px;
+  background: #6e2f1b;
+  position: absolute;
+  left: 47%;
+}
