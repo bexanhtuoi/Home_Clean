@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.col-50 {
+    flex: 50%;
+    padding: 10px;
+}
+
+.form-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-section h3 {
+    margin-bottom: 20px;
+}
+
+.form-section label {
+    display: block;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.form-section input[type="text"],
+.form-section input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.order-summary {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.order-summary h4 {
+    margin-bottom: 15px;
+}
+
+.order-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.order-item img {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+
+.total {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.btn-pay {
+    background-color: #007bff;
+    color: white;
+    padding: 15px;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+.btn-pay:hover {
+    background-color: #0056b3;
+}
