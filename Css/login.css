@@ -1,55 +1,55 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html {
-    font-family: 'Questrial', sans-serif;
+  font-family: "Questrial", sans-serif;
 }
 
 :root {
-    --color-text_1: #868686;
-    --color-text: #585858;
-    --Hover-icon: #FF9B42;
+  --color-text_1: #868686;
+  --color-text: #585858;
+  --Hover-icon: #ff9b42;
 }
 
 .all-container {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .box-picture {
-    /* width: 55%; */
-    width: 100%;
-    height: 100vh;
-    padding-right: 10%;
-    background: url('../Picture/Login/slider-3.jpg') no-repeat;
-    background-size: cover;
-    /* clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 0 100%, 0% 50%, 0 0); */
-    position: relative;
+  /* width: 55%; */
+  width: 100%;
+  height: 100vh;
+  padding-right: 10%;
+  background: url("../Picture/Login/slider-3.jpg") no-repeat;
+  background-size: cover;
+  /* clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 0 100%, 0% 50%, 0 0); */
+  position: relative;
 }
 
 .box-text {
-    position: absolute;
-    top: 35%;
-    left: 130px;
+  position: absolute;
+  top: 35%;
+  left: 130px;
 }
 
 .box-text h1 {
-    color: white;
-    font-weight: 500;
-    font-size: 60px;
-    margin-bottom: 20px;
+  color: white;
+  font-weight: 500;
+  font-size: 60px;
+  margin-bottom: 20px;
 }
 
 .box-text .content {
-    /* text-align: center; */
-    color: white;
-    font-size: 27px;
-    font-weight: 400;
-    letter-spacing: 2px;
-    margin-bottom: 20px;
+  /* text-align: center; */
+  color: white;
+  font-size: 27px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
 }
 
 /* .content-button {
@@ -57,135 +57,269 @@ html {
 } */
 
 .content-button button {
-    font-size: 25px;
-    width: 230px;
-    height: 55px;
-    padding: 10px 40px;
-    letter-spacing: 2px;
-    background-color: var(--color-text);
-    border: none;
-    outline: none;
-    color: white;
-    border-radius: 15px;
-    transition: all 0.4s ease-in-out;
-    cursor: pointer;
+  font-size: 25px;
+  width: 230px;
+  height: 55px;
+  padding: 10px 40px;
+  letter-spacing: 2px;
+  background-color: var(--color-text);
+  border: none;
+  outline: none;
+  color: white;
+  border-radius: 15px;
+  transition: all 0.4s ease-in-out;
+  cursor: pointer;
 }
 
 .content-button button:hover {
-    background-color: var(--Hover-icon);
+  background-color: var(--Hover-icon);
 }
 
 .content-button button:active {
-    font-size: 23px;
+  font-size: 23px;
 }
 
 .box-login {
-    position: absolute;
-    width: 425px;
-    height: 570px;
-    padding: 60px 35px;
-    background-color: var(--color-text);
-    /* margin-left: 90px; */
-    right: 120px;
-    border-radius: 25px;
-    box-shadow: 1px 1px 20px black;
+  position: absolute;
+  width: 425px;
+  height: 570px;
+  padding: 60px 35px;
+  background-color: var(--color-text);
+  /* margin-left: 90px; */
+  right: 120px;
+  border-radius: 25px;
+  box-shadow: 1px 1px 20px black;
 }
 
 .box-login h2 {
-    text-align: center;
-    font-size: 50px;
-    color: white;
-    letter-spacing: 3px;
-    margin-bottom: 25px;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  letter-spacing: 3px;
+  margin-bottom: 25px;
 }
 
 .box-login .box-login-icon {
-    text-align: center;
-    font-size: 30px;
-    margin-bottom: 40px;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 40px;
 }
 
 .box-login-icon a {
-    text-decoration: none;
-    color: white;
-    transition: 0.4s;
+  text-decoration: none;
+  color: white;
+  transition: 0.4s;
 }
 
 .box-login-icon a:hover {
-    color: var(--Hover-icon);
+  color: var(--Hover-icon);
 }
 
 .box-login .box-login-icon i {
-    margin: 0 10px;
+  margin: 0 10px;
 }
 
 .box-login .noti {
-    color: white;
-    font-size: 18px;
-    text-align: center;
-    margin-bottom: 40px;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 40px;
 }
 
 .box-input .box-user {
-    display: flex;
+  display: flex;
 }
 
-.box-user i { 
-    width: 55px;
-    height: 45px;
-    text-align: center;
-    line-height: 45px;
-    font-size: 20px;
-    background-color: white;
-    color: var(--color-text);
-    border-radius: 10px 0 0 10px;
+.box-user i {
+  width: 55px;
+  height: 45px;
+  text-align: center;
+  line-height: 45px;
+  font-size: 20px;
+  background-color: white;
+  color: var(--color-text);
+  border-radius: 10px 0 0 10px;
 }
 
 .box-input .user {
-    width: 100%;
-    height: 45px;
-    padding: 15px;
-    margin-bottom: 15px;
-    outline: none;
-    font-size: 20px;
-    border: none;
-    border-radius: 0 10px 10px 0;
-    letter-spacing: 2px;
+  width: 100%;
+  height: 45px;
+  padding: 15px;
+  margin-bottom: 15px;
+  outline: none;
+  font-size: 20px;
+  border: none;
+  border-radius: 0 10px 10px 0;
+  letter-spacing: 2px;
 }
 
 .box-forgot-password {
-    text-align: center;
-    margin-bottom: 15px;
+  text-align: center;
+  margin-bottom: 15px;
 }
 
 .box-forgot-password a {
-    color: white;
-    text-decoration: none;
-    line-height: 2;
-    border-bottom: 1px solid white;
+  color: white;
+  text-decoration: none;
+  line-height: 2;
+  border-bottom: 1px solid white;
 }
 
 .button-login {
-    text-align: center;
+  text-align: center;
 }
 
 .button-login button {
-    width: 250px;
-    font-size: 25px;
-    padding: 10px 20px;
-    text-transform: uppercase;
-    border-radius: 10px;
-    border: none;
-    background-color: var(--Hover-icon);
-    color: white;
-    transition: 0.3s;
-    cursor: pointer;
+  width: 250px;
+  font-size: 25px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  border-radius: 10px;
+  border: none;
+  background-color: var(--Hover-icon);
+  color: white;
+  transition: 0.3s;
+  cursor: pointer;
 }
 
 .button-login button:hover {
-    background-color: var(--color-text_1);
+  background-color: var(--color-text_1);
 }
 
 .button-login button:active {
-    background-color: var(--Hover-icon);
+  background-color: var(--Hover-icon);
+}
+
+.box-register {
+  position: absolute;
+  width: 425px;
+  height: 570px;
+  padding: 60px 35px;
+  background-color: var(--color-text);
+  right: 120px;
+  border-radius: 25px;
+  box-shadow: 1px 1px 20px rgb(0, 0, 0);
+}
+
+.box-register h2 {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  letter-spacing: 3px;
+  margin-bottom: 25px;
+}
+
+.box-register .noti {
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.box-input .box-user {
+  display: flex;
+}
+
+.box-user i {
+  width: 55px;
+  height: 45px;
+  text-align: center;
+  line-height: 45px;
+  font-size: 20px;
+  background-color: white;
+  color: var(--color-text);
+  border-radius: 10px 0 0 10px;
+}
+
+.box-input .user {
+  width: 100%;
+  height: 45px;
+  padding: 15px;
+  margin-bottom: 15px;
+  outline: none;
+  font-size: 20px;
+  border: none;
+  border-radius: 0 10px 10px 0;
+  letter-spacing: 2px;
+}
+
+.box-agree {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.box-agree input {
+  margin-right: 10px;
+}
+
+.box-agree label {
+  color: white;
+  font-size: 18px;
+}
+
+.box-agree a {
+  text-decoration: none;
+  color: var(--Hover-icon);
+}
+
+.button-register {
+  text-align: center;
+}
+
+.button-register button {
+  width: 250px;
+  font-size: 25px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  border-radius: 10px;
+  border: none;
+  background-color: var(--Hover-icon);
+  color: white;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.button-register button:hover {
+  background-color: var(--color-text_1);
+}
+
+.button-register button:active {
+  background-color: var(--Hover-icon);
+}
+
+.box-login-link {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.box-login-link p {
+  color: white;
+  font-size: 18px;
+}
+
+.box-login-link a {
+  text-decoration: none;
+  color: var(--Hover-icon);
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.box-login-link a:hover {
+  color: white;
+}
+
+.box-register {
+  transform: rotateY(0deg);
+  transition: transform 0.9s;
+}
+
+.box-login {
+  transform: rotateY(180deg);
+  transition: transform 0.9s;
+}
+
+.content-button a {
+  text-decoration: none;
+  color: white;
+  transition: all 0.5s ease-in-out;
 }

@@ -1,64 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
-    <link rel="stylesheet" href="../Css/login.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../Css/login.css" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="all-container">
-        <div class="box-picture">
-            <div class="box-text">
-                <h1>Welcome Back!</h1>
-                <div class="content">
-                    <div class="content-1">Enter personal information into your</div>
-                    <div class="content-2">User account</div>
-                </div>
-                <div class="content-button">
-                    <button>Sign up</button>
-                </div>
-            </div>
+      <div class="box-picture">
+        <div class="box-text">
+          <h1>Welcome Back!</h1>
+          <div class="content">
+            <div class="content-1">Enter personal information into your</div>
+            <div class="content-2">User account</div>
+          </div>
+          <div class="content-button">
+            <button>
+              Sign <a id="one" href="#" onclick="flipToRegister()">up</a
+              ><a id="three" href="#">|</a
+              ><a id="two" href="#" onclick="flipToLogin()">in</a>
+            </button>
+          </div>
         </div>
-        <div class="box-login">
-            <h2>Sign in</h2>
-            <div class="box-login-icon">
-                <a href="">
-                    <i class="fa-brands fa-facebook"></i>
-                </a>
-                <a href="">
-                        <i class="fa-brands fa-google"></i>
-                </a>
-                <a href="">
-                        <i class="fa-brands fa-instagram"></i>
-                </a>
-            </div>
-            <div class="noti">Or user your email account.</div>
-            <div class="box-input">
-                <div class="box-user">
-                    <i class="fa-solid fa-envelope"></i>
-                    <input class="user" type="text" placeholder="Email">
-                </div>
-                <div class="box-user">
-                    <i class="fa-solid fa-lock"></i>
-                    <input class="user" class="pass" type="password" placeholder="Password">
-                </div>
-            </div>
-            <div class="box-forgot-password">
-                <div>
-                    <a href="">Forgot your password ?</a>
-                </div>
-            </div>
-            <div class="button-login">
-                <a href="../index.html">
-                    <button>Sign in</button>
-                </a>
-            </div>
+      </div>
+      <div class="box-login">
+        <h2>Sign in</h2>
+        <div class="box-login-icon">
+          <a href="">
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+          <a href="">
+            <i class="fa-brands fa-google"></i>
+          </a>
+          <a href="">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
         </div>
+        <div class="noti">Or user your email account.</div>
+        <div class="box-input">
+          <div class="box-user">
+            <i class="fa-solid fa-envelope"></i>
+            <input class="user" type="text" placeholder="Email" />
+          </div>
+          <div class="box-user">
+            <i class="fa-solid fa-lock"></i>
+            <input
+              class="user"
+              class="pass"
+              type="password"
+              placeholder="Password"
+            />
+          </div>
+        </div>
+        <div class="box-forgot-password">
+          <div>
+            <a href="">Forgot your password ?</a>
+          </div>
+        </div>
+        <div class="button-login">
+          <a href="../index.html">
+            <button>Sign in</button>
+          </a>
+        </div>
+        <div class="box-login-link">
+          <p>
+            Don't have an account?
+            <a href="#" onclick="flipToRegister()">Sign up</a>
+          </p>
+        </div>
+      </div>
+      <div class="box-register">
+        <h2>Sign Up</h2>
+        <div class="noti">Create a new account.</div>
+        <div class="box-input">
+          <div class="box-user">
+            <i class="fa-solid fa-envelope"></i>
+            <input class="user" type="email" placeholder="Email" required />
+          </div>
+          <div class="box-user">
+            <i class="fa-solid fa-lock"></i>
+            <input
+              class="user"
+              type="password"
+              placeholder="Password"
+              required
+            />
+          </div>
+          <div class="box-user">
+            <i class="fa-solid fa-lock"></i>
+            <input
+              class="user"
+              type="password"
+              placeholder="Confirm Password"
+              required
+            />
+          </div>
+        </div>
+        <div class="box-agree">
+          <input type="checkbox" id="terms" />
+          <label for="terms"
+            >I agree to the <a href="#">Terms and Conditions</a></label
+          >
+        </div>
+        <div class="button-register">
+          <button>Sign Up</button>
+        </div>
+        <div class="box-login-link">
+          <p>
+            Already have an account?
+            <a href="#" onclick="flipToLogin()">Sign in</a>
+          </p>
+        </div>
+      </div>
     </div>
-</body>
+    <script src="../js/login.js"></script>
+  </body>
 </html>
-<script src="https://kit.fontawesome.com/eda05fcf5c.js" crossorigin="anonymous"></script>
-<script src="js/main.js"></script>
